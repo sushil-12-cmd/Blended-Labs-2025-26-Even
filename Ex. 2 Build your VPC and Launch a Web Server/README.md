@@ -2,8 +2,9 @@
 
 ## Author
 
-* **Name** : Sushil Shiva R
-* **Register Number**: 212224250017
+* **Name**:Sushil Shiva R
+* **Register Number**:212224250017
+
 
 ---
 
@@ -82,47 +83,42 @@ Install and start a web server (Apache HTTPD) on the EC2 instance using user dat
 
 Create a simple HTML page and verify that it can be accessed from a web browser using the public IP address of the instance.---
 
-## Workflow (Student Explanation):
+## Workflow (Student Explanation)
 
-1.First, I created a VPC in Amazon Web Services. I gave it a CIDR block of 10.0.0.0/16. This VPC acts as my private network where all my resources will be created.
+First, I created a VPC in Amazon Web Services. I gave it a CIDR block of 10.0.0.0/16. This VPC acts as my private network where all my resources will be created.
 
-2.Next, I created a public subnet inside the VPC with CIDR 10.0.1.0/24. I enabled auto-assign public IP so that any instance launched in this subnet will automatically get a public IP address.
+Next, I created a public subnet inside the VPC with CIDR 10.0.1.0/24. I enabled auto-assign public IP so that any instance launched in this subnet will automatically get a public IP address.
 
-3.After that, I created an Internet Gateway and attached it to my VPC. This allows my VPC to communicate with the internet.
+After that, I created an Internet Gateway and attached it to my VPC. This allows my VPC to communicate with the internet.
 
-4.Then, I created a route table and added a default route (0.0.0.0/0) pointing to the Internet Gateway. I associated this route table with my public subnet. This step ensures that traffic from my subnet can reach the internet.
+Then, I created a route table and added a default route (0.0.0.0/0) pointing to the Internet Gateway. I associated this route table with my public subnet. This step ensures that traffic from my subnet can reach the internet.
 
-5.Next, I created a security group which acts as a virtual firewall. I allowed inbound traffic for SSH on port 22 and HTTP on port 80.
+Next, I created a security group which acts as a virtual firewall. I allowed inbound traffic for SSH on port 22 and HTTP on port 80.
 
-6.After completing the network setup, I launched an EC2 instance using Amazon Linux 2 AMI with instance type t2.micro. I selected my VPC, public subnet, created security group, and key pair.
+After completing the network setup, I launched an EC2 instance using Amazon Linux 2 AMI with instance type t2.micro. I selected my VPC, public subnet, created security group, and key pair.
 
 Finally, I connected to the EC2 instance using SSH and installed the Apache web server. I started the service and created a simple HTML page. Then I copied the public IP address of the instance and opened it in a web browser. The webpage was displayed successfully.
 
 So, this is how I created a VPC, launched an EC2 instance, and hosted a simple web server in AWS.
 
----
-
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
+<img width="1918" height="983" alt="image" src="https://github.com/user-attachments/assets/564c4bcf-e4c0-4f1c-9407-3657b7797100" />
 
-<img width="1356" height="764" alt="Screenshot 2026-04-19 152240" src="https://github.com/user-attachments/assets/29cd997e-919a-471b-b31c-73d9c8587ff8" />
 
-
----
 
 ### Screenshot 2: EC2 Instance Running
-<img width="1365" height="578" alt="Screenshot 2026-04-19 175327" src="https://github.com/user-attachments/assets/ca15eac2-4f00-4e8f-a3c6-f916adfc38c4" />
 
-<img width="1365" height="767" alt="Screenshot 2026-04-19 180050" src="https://github.com/user-attachments/assets/842be063-c32a-4a88-9021-254a065fb788" />
+<img width="1918" height="987" alt="image" src="https://github.com/user-attachments/assets/0c91eafa-1010-45f1-bb31-9c0997137176" />
 
 
----
 
 ### Screenshot 3: Web Server Output in Browser
-<img width="1365" height="765" alt="Screenshot 2026-04-19 180549" src="https://github.com/user-attachments/assets/adff9103-08b3-41ac-aab0-5bcb06278aef" />
 
----
+<img width="1907" height="1007" alt="image" src="https://github.com/user-attachments/assets/0bcf9e5a-b9b1-4512-8f96-0a61316a88ee" />
+
+
 
 ## Result 
 
