@@ -1,10 +1,9 @@
-# Lab 5 – Build a Database Server (AWS)
+ g# Lab 5 – Build a Database Server (AWS)
 
 ## Author
 
 * **Name**: Sushil Shiva R
 * **Register Number**: 212224250017
-
 
 ---
 
@@ -105,6 +104,7 @@ Test the database server by connecting to it locally or remotely and performing 
 ### Screenshot 2: Database Service Running
 
 
+<img width="1365" height="767" alt="Screenshot 2026-04-23 142533" src="https://github.com/user-attachments/assets/1a04e6ba-8be7-4dc2-9352-a50b1790af56" />
 
 
 ---
@@ -112,6 +112,7 @@ Test the database server by connecting to it locally or remotely and performing 
 ### Screenshot 3: Sample Database and Table
 
 
+<img width="1365" height="716" alt="Screenshot 2026-04-23 142609" src="https://github.com/user-attachments/assets/7374f635-da2e-4105-a2f8-e458d296c8a0" />
 
 ---
 
