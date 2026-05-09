@@ -1,4 +1,4 @@
- g# Lab 5 – Build a Database Server (AWS)
+ # Lab 5 – Build a Database Server (AWS)
 
 ## Author
 
