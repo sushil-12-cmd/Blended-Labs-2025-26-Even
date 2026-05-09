@@ -1,4 +1,4 @@
-<img width="1326" height="731" alt="Screenshot 2026-05-09 150513" src="https://github.com/user-attachments/assets/adebfa69-2bfc-4020-81bd-60303aa4aba3" /># Lab 6 – Scale and Load Balance Your Architecture
+# Lab 6 – Scale and Load Balance Your Architecture
 ## Name: Sushil Shiva R
 ## Register Number: 212224250017
 
