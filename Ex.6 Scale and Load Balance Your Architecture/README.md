@@ -1,4 +1,4 @@
-# Lab 6 – Scale and Load Balance Your Architecture
+<img width="1326" height="731" alt="Screenshot 2026-05-09 150513" src="https://github.com/user-attachments/assets/adebfa69-2bfc-4020-81bd-60303aa4aba3" /># Lab 6 – Scale and Load Balance Your Architecture
 ## Name: Sushil Shiva R
 ## Register Number: 212224250017
 
@@ -86,15 +86,18 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Output Screenshots 
 ## Created LoadBalancer:
-<img width="1919" height="866" alt="Screenshot 2026-03-13 090624" src="https://github.com/user-attachments/assets/54b3e88a-e896-491a-a8a0-c16600e85cf8" />
+<img width="1365" height="688" alt="Screenshot 2026-04-23 144442" src="https://github.com/user-attachments/assets/6a2c9170-a0bc-4969-8458-13fccf76132f" />
+
 
 ---
 ## Created LabConfig:
-<img width="1919" height="858" alt="Screenshot 2026-03-13 091102" src="https://github.com/user-attachments/assets/533485f5-ebe2-4331-bad4-c63c8134008a" />
+<img width="1326" height="731" alt="Screenshot 2026-05-09 150513" src="https://github.com/user-attachments/assets/64bb9f79-4358-4d5e-ba06-aeb9d3dd5c70" />
+
 
 ---
 ## Dynamic Scaling Policy created:
-<img width="1919" height="862" alt="Screenshot 2026-03-13 091949" src="https://github.com/user-attachments/assets/101e996f-30da-40e3-9d35-e6560dc119de" />
+
+<img width="1365" height="767" alt="Screenshot 2026-05-09 152250" src="https://github.com/user-attachments/assets/7a25577e-af66-425c-836b-45fd73a5be97" />
 
 ---
 
